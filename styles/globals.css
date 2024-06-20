@@ -1,0 +1,32 @@
+@font-face {
+  font-family: Sofia;
+  src: url("/font/sofia-pro-cdnfonts/Sofia Pro Regular Az.otf");
+}
+
+@font-face {
+  font-family: Sofia;
+  src: url("/font/sofia-pro-cdnfonts/Sofia Pro Black Az.otf");
+  font-weight: 900;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Sofia";
+  color: #000b33;
+}
+
+*:hover,
+*:active,
+*:focus {
+  outline: 0;
+}
